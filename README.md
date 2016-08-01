@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/HLSignalView.svg?style=flat)](http://cocoapods.org/pods/HLSignalView)
 [![Platform](https://img.shields.io/cocoapods/p/HLSignalView.svg?style=flat)](http://cocoapods.org/pods/HLSignalView)
 
+![](images/snapshot.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
