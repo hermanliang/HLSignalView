@@ -23,24 +23,24 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func onValueChanged(sender: UIStepper) {
+    @IBAction func onValueChanged(_ sender: UIStepper) {
         self.signalView.intensity = Int(sender.value)
     }
     
-    @IBAction func color1(sender: AnyObject) {
-        self.signalView.colorInactive = UIColor.lightGrayColor()
+    @IBAction func color1(_ sender: AnyObject) {
+        self.signalView.colorInactive = UIColor.lightGray
     }
 
-    @IBAction func color2(sender: AnyObject) {
-        self.signalView.colorInactive = UIColor.grayColor()
+    @IBAction func color2(_ sender: AnyObject) {
+        self.signalView.colorInactive = UIColor.gray
     }
     
-    @IBAction func color3(sender: AnyObject) {
-        self.signalView.colorActive = UIColor.blueColor()
+    @IBAction func color3(_ sender: AnyObject) {
+        self.signalView.colorActive = UIColor.blue
     }
     
-    @IBAction func color4(sender: AnyObject) {
-        self.signalView.colorActive = UIColor.purpleColor()
+    @IBAction func color4(_ sender: AnyObject) {
+        self.signalView.colorActive = UIColor.purple
     }
     
     
