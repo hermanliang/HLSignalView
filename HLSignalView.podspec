@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HLSignalView'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Simple Signal View'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ Usage: Bluetooth signal, Wi-Fi signal
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'HLSignalView/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'HLSignalView' => ['HLSignalView/Assets/*.png']
   # }
