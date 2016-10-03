@@ -51,6 +51,11 @@
                BlueprintName = "HLSignalView_Tests"
                ReferencedContainer = "container:HLSignalView.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "TableOfContentsSpec">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>
