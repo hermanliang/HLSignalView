@@ -11,6 +11,6 @@ before_install:
 - pod install --project-directory=Example
 - pod update --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -workspace Example/HLSignalView.xcworkspace -scheme HLSignalView-Example -sdk iphonesimulator10.0 -destination 'OS=10.0,name=iPhone 5' -configuration Debug | xcpretty -c
+- set -o pipefail && xcodebuild clean test -workspace Example/HLSignalView.xcworkspace -scheme HLSignalView-Example -sdk iphonesimulator10.0 -destination 'OS=10.0,name=iPhone 5' -configuration Debug | xcpretty -c
 - gem install cocoapods --pre
 - pod lib lint
